@@ -1,0 +1,41 @@
+body {
+    font-family: cursive;
+    font-size: 1.25em;
+    background-color: #161616;
+}
+
+:root {
+    color-scheme: dark;
+}
+
+*::selection {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+}
+
+#img1 {
+    height: 400px;
+    float: right;
+    border-radius: 50px;
+    margin-left: 1em;
+    margin-right: 1vw;
+    margin-bottom: 1em;
+    transition: 0.5s;
+}
+
+#img1:hover {
+    color: #111111;
+    background: #ffffff;
+    box-shadow: 0 0 100px #ffffff;
+    cursor: pointer;
+}
+
+#img1:active {
+    color: #111111;
+    background: #ffffff;
+    box-shadow: 0 0 200px #ffffff;
+}
